@@ -109,9 +109,10 @@
 	
 #cont1{
 	/*border: 2px solid black;*/
-	height: 300px;
+	height: 390px;
 	width: 100%;
 	background-color: white;
+	padding-top: 90px;
 
 }
 #cont1 h1{
@@ -122,24 +123,40 @@
 }
 #cont1 img{
 	width:530px;
-	height:300px;
+	height:270px;
+}
+
+#description{
+	padding-top: 80px;
 }
 #cont p{
 	font-size: 20px;
 }
+/* hr {
+    max-width: 50px;
+    border-color: #add43c;
+    border-width: 3px;
+    text-align: center; */
+}
 #cont2{
 	/*border: 2px solid black;*/
-	height:350px;
+	height:400px;
 	width: 100%;
 	background-color: #F8F8FF;
+	padding-top: 70px;
+	padding-bottom: 50px;
 
 }
 #cont2 h2{
 	text-align: center;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 25px;
+	padding-bottom: 15px;
 
 }
+#cont2 caption{
+	text-align: center;
+} 
 #cont2 p{
 	font-size: 20px;
 	
@@ -147,12 +164,14 @@
 #cont2 img{
 	height:130px; 
 	width:130px;
+	margin-left: 70px;
 }
 #cont3{
 	/*border: 2px solid black*/;
 	height: 350px;
 	width: 100%;
 	background-color: #F8F8FF;
+	padding-top: 30px;
 	
 }
 #cont3 h3{
@@ -163,15 +182,16 @@
 }#cont3 img{
 	width: 130px;
 	height:130px;
-	text-align: center;
+	
+	margin-left: 70px;
 }
 .button3{
-	background-color: #2C3539;
-	text-align: center;
-	float:left;
-	border-radius: 10px;
-	height:40px;
-	margin:50px;
+	/* background-color: #2C3539; */
+/* 	text-align: center;
+float:left; */
+	/* border-radius: 10px; */
+	height:50px;
+	margin:70px;
 
 
 }
@@ -180,6 +200,7 @@
 	height: 500px;
 	width: 100%;
 	background-color: gainsboro;
+	padding-top: 30px;
 
 }
 #cont4 p {
@@ -231,31 +252,40 @@
 
 	}
 	.button{
-		background-color: gray;
-		float: center;
-		margin-left: 120px;
+		
+		float: right;
+		/* margin-left: 120px; */
 		margin-top: 25px;
+		margin-bottom: 30px;
+		margin-right: 130px;
+		width: 150px;
+
 
 	}
 	.footer{
 		text-align:center;
-		margin-top: 30px;
+		padding-top: 80px;
+		margin-top: 70px;
 		background-color: #2C3539;
+		padding-bottom: 30px;
 	}
-
+	.footer p{
+		padding-bottom: 20px;
+	}
 	.footer li{
 		color: white:;
 	}
 	.footer a{
 		padding: 25px;
 
+
 	}
 	hr { 
-    display: block;
+   /*  display: block; */
     margin-top: 0.5em;
     margin-bottom: 0.5em;
     margin-left:120px;
     margin-right: 120px;
-    border-style: inset;
-    border-width: 1px;
+   /*  border-style: inset; */
+   /*  border-width: 1px; */
 }
