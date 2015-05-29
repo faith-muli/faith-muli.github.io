@@ -137,53 +137,64 @@
     border-color: #add43c;
     border-width: 3px;
     text-align: center; */
-}
+
 #cont2{
 	/*border: 2px solid black;*/
 	height:400px;
 	width: 100%;
 	background-color: #F8F8FF;
 	padding-top: 70px;
-	padding-bottom: 50px;
+	padding-bottom: 80px;
 
 }
 #cont2 h2{
 	text-align: center;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	font-size: 25px;
-	padding-bottom: 15px;
+	font-size: 30px;
+	padding-bottom: 30px;
+	padding-right: 20px;
 
 }
 #cont2 caption{
 	text-align: center;
 } 
 #cont2 p{
-	font-size: 20px;
-	
+	font-size: 15px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	text-align: center;
 }
 #cont2 img{
 	height:130px; 
 	width:130px;
-	margin-left: 70px;
+	margin-left: 110px;
 }
 #cont3{
 	/*border: 2px solid black*/;
-	height: 350px;
+	height: 410px;
 	width: 100%;
 	background-color: #F8F8FF;
 	padding-top: 30px;
+	padding-bottom: 120px;
 	
 }
 #cont3 h3{
 	text-align: center;
 	font-size: 25px;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	padding-bottom: 30px;
+
 
 }#cont3 img{
 	width: 130px;
-	height:130px;
-	
-	margin-left: 70px;
+	height:130px;	
+	margin-left: 100px;
+}
+#cont3 p{
+	font-size: 15px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	text-align: center;
+
+
 }
 .button3{
 	/* background-color: #2C3539; */
@@ -192,6 +203,8 @@ float:left; */
 	/* border-radius: 10px; */
 	height:50px;
 	margin:70px;
+	margin-right: 50px;
+	float: right;
 
 
 }
@@ -200,7 +213,7 @@ float:left; */
 	height: 500px;
 	width: 100%;
 	background-color: gainsboro;
-	padding-top: 30px;
+	
 
 }
 #cont4 p {
@@ -209,7 +222,11 @@ float:left; */
 	color: #778899;	
 	font-family:"Trebuchet MS", Helvetica, sans-serif;
 	font-size: 25px;
+	padding-top: 
 	
+}
+#contacts{
+	padding-top: 80px;
 }
 #inforcontainer{
 		background: transparent;
