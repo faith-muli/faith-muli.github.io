@@ -1,17 +1,17 @@
 
 .container{
 	/*border: 2px solid black;*/
-	width: 100%;
-	background-color: #F8F8FF;
+	width: auto;
+	/*background-color: #F8F8FF;*/
 }
 	#nav
 	{
 		/*background-color: #282828;*/
 		text-align: center;
-		position: fixed;
+		/*position: fixed;*/
 		background-color: #2C3539;
 		/*height: 80px;*/
-		width: 97.8%;
+		width: auto;
 		z-index: 999;
 		opacity: 0.98;
 
@@ -74,43 +74,42 @@
 			height: 300px;
 			width:100%;
 			z-index: 1;
-			;
-
-			}
+            }
 			#parallax1{
-				background-image: url("assets/rsz_ruler.jpg");
+				background:url("assets/rsz_ruler.jpg") repeat 0 0;
 				background-attachment: fixed;
 				background-size: cover;
-			
 			}
 			#parallax2{
-				background-image: url("assets/rsz_ruler1.jpg" );
+				background:url("assets/rsz_ruler1.jpg" ) repeat 0 0;
 				background-attachment: fixed;
-				background-size: cover;
+				background-size:cover;
 				
 			}
 			#parallax3{
-				background-image: url("assets/rsz_comp.jpg");
+				background:url("assets/rsz_comp.jpg") repeat 0 0;
 				background-attachment: fixed;
 				background-size: cover;
 				
 			}
 			#parallax4{
-				background-image: url("assets/rsz_img.jpg");
+				background: url("assets/rsz_img.jpg") repeat 0 0;
 				background-attachment: fixed;
 				background-size: cover;
+                width: 100%
 				
 			}
 			.contents{
 				z-index: 2;
 				width: 100%;
 			}
-
+    .row{
+            width: auto;}
 	
 #cont1{
 	/*border: 2px solid black;*/
 	height: 390px;
-	width: 100%;
+	width: auto;
 	background-color: white;
 	padding-top: 90px;
 
@@ -141,7 +140,7 @@
 #cont2{
 	/*border: 2px solid black;*/
 	height:400px;
-	width: 100%;
+	width: auto;
 	background-color: #F8F8FF;
 	padding-top: 70px;
 	padding-bottom: 80px;
@@ -171,7 +170,7 @@
 #cont3{
 	/*border: 2px solid black*/;
 	height: 410px;
-	width: 100%;
+	width: auto;
 	background-color: #F8F8FF;
 	padding-top: 30px;
 	padding-bottom: 120px;
@@ -211,7 +210,7 @@ float:left; */
 #cont4{
 	/*border: 2px solid black;*/
 	height: 530px;
-	width: 100%;
+	width: auto;
 	background-color: gainsboro;
 	
 
@@ -226,7 +225,7 @@ float:left; */
 	
 }
 #contacts{
-	padding-top: 80px;
+	padding-top: 60px;
 }
 #inforcontainer{
 		background: transparent;
@@ -280,24 +279,29 @@ float:left; */
 
 
 	}
-	.footer{
+	#footer{
 		text-align:center;
-		padding-top: 80px;
-		margin-top: 60px;
+		/*padding-top: 80px;*/
+		/*margin-top: 60px;*/
 		background-color: #2C3539;
 		padding-bottom: 30px;
 	}
-	.footer p{
+	#footer p{
 		padding-bottom: 20px;
+        padding-top: 20px;
 	}
-	.footer li{
-		color: white:;
+	/*#footer li{
+		color: white;
+	}*/
+	#links li{
+            display: inline-block;
+			padding:20px;
+			
 	}
-	.footer a{
-		padding: 25px;
-
-
-	}
+#copywrite{
+    text-align: center;
+    padding-top: 30px;
+}
 	hr { 
    /*  display: block; */
     margin-top: 0.5em;
