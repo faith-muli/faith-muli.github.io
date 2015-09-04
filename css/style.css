@@ -50,15 +50,15 @@ li{
  width: 800px;
 
 }*/
-#card{
+/*#card{
     height: 100%;
   position: absolute;
   transform-style: preserve-3d;
   transition: all 2.5s ease-in-out;
   width: 100%;
-}
-#card:hover {
-  transform: rotateY(90deg);
+}*/
+/*#card:hover {
+  transform: rotateY(90deg);*/
 }
 /*#card .front {
   backface-visibility: hidden;
