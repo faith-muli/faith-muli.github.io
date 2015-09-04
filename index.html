@@ -1,158 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>faith muli</title>
 
-    <!-- Bootstrap -->
-    <link href="bootstrap/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="http://fonts.googleapis.com/css?family=FONTNAME" rel="stylesheet" type="text/css" />
-    <script type="text/javascript" src="jquery/jquery.min.js"></script>
-      
-     <!--<script type="text/javascript" src="index.js"></script>-->
+  <title></title>
+	<link rel="stylesheet" href="css/jquery.fullPage.css">
+     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link rel="stylesheet" href="css/animations.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/owl.carousel.css">
+      <link rel="stylesheet" href="css/owl.theme.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>	
 
+  	<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>-->
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+      <script src="js/jquery-1.9.1.min.js"></script>
+	<script src="js/jquery.fullPage.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script src="js/owl.carousel.min.js"></script>
+      <script src="js/style.js"></script>
+    
+	
+  </head>
 
-     </head>
-     <body>
-    <div class="container">
-     <nav id="nav">
-        <ul>
-          <li><a href="#About me">About me</a></li>
-          <li><a href="#work">Work</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#contacts">Contacts</a></li>
-        </ul>
-      </nav>
+   <body>
+       <script>
+	$(document).ready(function() {
+	$.fn.fullpage({
+	slidesColor: ['#fff','#ccc', '#2C3539','#ED9641'],
+	anchors: ['page1', 'page2', 'page3', 'page4'],
+	navigation: true,
+	verticalCentered: true,
+	resize: true,
 
-      
-      <div  class="parallax" id="parallax1">
+	});
+	});
+	</script>
        
-      </div>
-        
-     
-     <div class="row" id="cont1">
 
-     <article class="contents" id="About me"></article>
-
-     <div class="col-md-8">
-       <img src="assets/font.JPG">
-     </div>
-     <div class="col-md-4" id="description">
-     <h1><b>A little bit about me..</b></h1>
-     <p> I am a web and mobile app developer .<br> I have enjoy programming.<br>My hobbies include reading, hiking and biking.</p>
-     </div>
-     </div>
-
-
-    <div  class="parallax" id="parallax2"></div>
-      <div class="row" id="cont2">
-             <article class="contents" id="work">
-                <h2><b>Skills set.</h2></b></article>             
-        
-              <div class="col-md-4">
-                <img src="assets/rsz_indroid.jpg" class="img responsiveness">                 
-                <div class="caption">
-                 <p>ANDROID APP DEVELOPMENT<br>I build mobile android applications </P>
-                 </div>
-              </div> 
-              <div class="col-md-4">
-                 <img src="assets/rsz_ux.png" class="img responsiveness">
-                <div class="caption">
-                  <p>UX/UI DESIGN  <br>I engage in imagination, prototyping, building,refining the experiences 
-                      that define consumer apps and services.</P>
-                </div> 
-              </div>
-              <div class="col-md-4">
-                 <img src="assets/rsz_html5.png" class="img responsiveness">
-             
-                   <div class="caption">
-                    <p>WEBSITE DEVELOPMENT.<br>I build cool websites using ruby on rails,HTML & CSS</p>
-                  </div> 
+     <div class="section">
+        <div class="row">
+            <div class="col s12 ">
+                <h1>Hello, I am </h1>
             </div>
-              
-      </div>
-
-
-    <div  class="parallax" id="parallax3"></div>
-    <div  class="row" id="cont3">
-    <article class="contents" id="portfolio">
-
-    <h3><b>Portfolio</b></h3> 
-    <div class="col-md-4">
-    <a href="https://appetize.io/app/j00322g6gxyh03tmr3w4g3re9g" target="_blank"><img src="assets/hmss.png" class="img responsiveness" style="height:250px; width:180px;"></a>
-    
-    </div>
-    <div class="col-md-4">
-  <a href="#" target="_blank"></a><img src="assets/ssnai.png" class="img responsiveness" style="height:250px; width:280px; align-content:center;"></a>
-    
-    </div>
-    <div class="col-md-4">
-      <a href="https://appetize.io/app/nfngv84ukxwj7kqh133v2t75bg" target="_blank"><img src="assets/ob.png" class="img responsiveness" style="height:250px; width:180px;"></a>
-    </div>
-        </article>
-   
-    </div>
-<div class="row" id="cont5">
-    <div class="col-md-4">
-        <div class="caption">
-      <p>Hair Me is a mobile application that allows users to find salons and book appointments.It also contains a trending hairstlyes that users can browse and locate salonists who offer those services. <p>
-    </div>
-        </div>
-        <div class="col-md-4">
-            <div class="caption">
-      <p>Naigator is a web and mobile appilication that assists users to find shopping joints along their routes.<p>
-    </div>
-        </div>
-    <div class="col-md-4">
-    <div class="caption">
-      <p>Ona browse is a mobile appilcation which allows users to view their entries on the Ona platform.<p>
-    </div>
-    </div>
-     <div class="button3">
-    <a href="https://github.com/faith-muli?tab=repositories" target="_blank"><button>Check out more of my work</button></a>
-     </div>
-    
-</div>
-
-    <div class="parallax" id="parallax4"></div>
-    <div class="row" id="cont4">
-    <article class="contents" id="contacts">
-    <p>Contacts</p><br>
-    <div class="row" id="infocontainer">
-            <div class="details">
-           <input class="name" type="text" placeholder="name">
-            <input class="email" type="text" placeholder="email" ></div>
-            <div><input class="subject" type="text" placeholder="subject"></div>
-            <input class="message" type="text" placeholder=" your message here" >
-            <button class="button" type="button">Submit</button>
-            
+         </div>
+         
+          <div class="row">
+              <div class="col s12"  id="cardcontainer">
+                <div id="card" class="slideUp"> 
+                    <img src="assets/croped.png" class="img responsiveness"  style="height:320px; width:800px;">
+                  </div>
+             </div>
           </div>
-          </article>
-
-          
-       <div  id="footer">
+         <div class="row">
+            <div class="col s12">
+                <h2>A mobile and web developer. <br><br> I do Mobile Apps design, Web design <br> <br>and UI/UX                                             Research</h2>
+             </div>
+         </div>
+        </div>
+	
+	<div class="section">
+        <div class="row">
+        <h4> My Work</h4>
+        </div>
+	<div class="slide">
        
-       <p>find me on ...</p>
-           <div class="row" id="links">
-               <ul>
-        <li><a href="https://www.facebook.com/faith.mulli" target="_blank"><img src="assets/facebook.png"></a></li>
-       <li><a href="https://twitter.com/" target="_blank"><img src="assets/twitter.png"></a></li>
-      <!-- <li><a href="https://instagram.com/faithmulli/" target="_blank"><img src="assets/instagram.png"></a></li>-->
-      <li><a href="https://www.google.com/+faithmuli" target="_blank"><img src="assets/googleplus.png"></a></li>
-      <li><a href="https://github.com/faith-muli?tab=repositories" target="_blank"><img src="assets/github.png" target="_blank"></a></li><br></ul></div>
-              
-           <div id="copywrite">&copy; All rights reserved.</div>
-      </div>
+        <div class="col row">
+        <div class="col s6">
+            
+               <h4>Hairme <br></h4><h3>An android application that assists salon <br> <br>owners to connect  with their<br><br> clients</h3>
+            <h5>Technologies used:</h5><h3> Android
+            </h3>
+            </div>
+            <div class="col s6">
+                
+                    <div id="object" class="expandUp">
+                   <a href="https://appetize.io/app/j00322g6gxyh03tmr3w4g3re9g" target="_blank">
+                   <!--<div class="col s4" > <img src="assets/hmss.png"  style="height:200px; width:150px;" ></div>
+                   <div class="col s4"><img src="assets/hmhp.png"  style="height:200px; width:150px;" ></div>-->
+                   <div class="col s4"><img src="assets/hmsp.png"  style="height:400px; width:300px;" ></div>
+                    
+                       </a> 
+                    </div>
+                </div>
+            </div>
+        </div>       
       
+	<div class="slide">
+        <div class="col row">
+        <div class="col s6">
+            
+               <h4>Naigator <br></h4>   <h3>A web application that assists users <br> <br>to find shopping joints along<br> <br> their routes.</h3>
+           <h5> Technologies used:</h5> <h3> Ruby on Rails, Bootstrap<br> <br>google maps APIs, jquery,D3.
+            </h3>
+            </div>
+            <div class="col s6">
+                
+                    <div id="object" class="expandUp">
+                   <a href="https://appetize.io/app/j00322g6gxyh03tmr3w4g3re9g" target="_blank">
+                   <!--<div class="col s4" > <img src="assets/hmss.png"  style="height:200px; width:150px;" ></div>
+                   <div class="col s4"><img src="assets/hmhp.png"  style="height:200px; width:150px;" ></div>-->
+                   <div class="col s4"><img src="assets/ssnai.png"  style="height:400px; width:450px;" ></div>
+                    
+                       </a> 
+                    </div>
+                </div>
+        </div>
     </div>
- </div>
-     
-      
-     </body>
-    
-     
-     </html>
+	<div class="slide">
+        
+         <div class="col row">
+        <div class="col s6">
+            
+               <h4>MsList <br></h4>   <h3>A web application that lists<br> <br>projects that as been done by <br> <br>Moringa School students.</h3>
+           <h5> Technologies used:</h5> <h3> Meteor, Bootstrap<br> <br> MongoDB, handlebars,jquery.
+            </h3>
+            </div>
+            <div class="col s6">
+                
+                    <div id="object" class="expandUp">
+                   <a href="https://appetize.io/app/j00322g6gxyh03tmr3w4g3re9g" target="_blank">
+                   <!--<div class="col s4" > <img src="assets/hmss.png"  style="height:200px; width:150px;" ></div>
+                   <div class="col s4"><img src="assets/hmhp.png"  style="height:200px; width:150px;" ></div>-->
+                   <div class="col s4"><img src="assets/ssmslist.png"  style="height:400px; width:450px;" ></div>
+                    
+                       </a> 
+                    </div>
+                </div>
+        </div>
+        </div>
+        <div class="slide">
+        <div class="col row">
+        <div class="col s6">
+            
+            <h4>Ona Browse <br></h4><h3>Ona browse is a mobile appilcation which allows users <br> <br> to view their entries on the <br><br> Ona platform.</h3>
+            <h5>Technologies used:</h5><h3> Android, Ona Apis
+            </h3>
+            </div>
+            <div class="col s6">
+                
+                    <div id="object" class="expandUp">
+                   <a href="https://appetize.io/app/j00322g6gxyh03tmr3w4g3re9g" target="_blank">
+                   <!--<div class="col s4" > <img src="assets/hmss.png"  style="height:200px; width:150px;" ></div>
+                   <div class="col s4"><img src="assets/hmhp.png"  style="height:200px; width:150px;" ></div>-->
+                   <div class="col s4"><img src="assets/obma.png"  style="height:400px; width:300px;" ></div>
+                    
+                       </a> 
+                    </div>
+                </div>
+            </div>
+        
+        
+        </div>
+</div>
+	<div class="section">
+        <div class="row">
+	       <div class="col s6">
+               
+                   <h7><p>I'm available for freelancing</p>
+                   <p>I can help you with</p>
+                <p>Mobile App design,Responsive Design, <br><br>Web design and UI/UX Research</p></h7>
+            </div>
+            <div class="col s6">
+                <h6>Feel free to contact me</h6>
+                <h2>Email</h2>
+                <h3><a href="mailto:faithmuli33@gmail.com">faithmuli33@gmail.com</h3></a>
+                <ul>
+               <li><a href="https://twitter.com/" target="_blank"><img src="assets/twitter.png"></a></li>
+           <li><a href="https://github.com/faith-muli?tab=repositories" target="_blank"><img src="assets/github.png" target="_blank"></li>
+              </ul>  
+            </div>
+        </div>
+	</div>
+	<!--<div class="section">
+	<h3>Slide 4</h3>
+	<p>Last slide</p>
+	</div>-->
+
+	
+
+   </body>
+ </html>
+
