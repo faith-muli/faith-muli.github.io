@@ -1,5 +1,5 @@
 
-<script>
+/*<script>
 	$(document).ready(function() {
 	$.fn.fullpage({
 	slidesColor: ['#fff','#ccc', '#2C3539','#ED9641'],
@@ -10,18 +10,18 @@
 
 	});
 	});
-	</script>
+	</script>*/
 
 
 
 
-<script>
+        <script>
 	       $(window).scroll(function() {
 		  $('#object').each(function(){
 		  var imagePos = $(this).offset().top;
 
 		  var topOfWindow = $(window).scrollTop();
-			if (imagePos < topOfWindow+400) {
+			if (imagePos < topOfWindow+00) {
 				$(this).addClass("expandUp");
 			}
 		      });
@@ -33,15 +33,29 @@
 		  $(this).addClass("expandUp");
            });
        </script>
-       <script>
+       
+       /*<script>
        $(document).ready(function){
        $("#object").owlCarousel({
            autoplay: 3000,
            items   :3,
-          /* itemsDesktop : [1199,3],
-            itemsDesktopSmall : [979,3]*/
+           itemsDesktop : [1199,3],
+            itemsDesktopSmall : [979,3]
        });
        
-       });
+       });*/
        
        </script>
+       
+       <script>
+       $("#object").click(function() {	
+	      	      
+        var el     = $(this),  
+            newone = el.clone(true);
+           
+            el.before(newone);
+        
+        $("." + el.attr("class") + ":last").remove();
+
+        });
+        </script>
